@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+.main {
+  background-color: #fff;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-box {
+  background-color: #ffffff;
+  width: 400px;
+  height: auto;
+  padding: 18px;
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 10px;
+}
+
+.main-box-img {
+  margin-bottom: 16px;
+}
+
+.main-box-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-btn {
+  display: inline-flex;
+  background-color: #f2eafd;
+  color: #7c19ee;
+  font-weight: bold;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+.main-title {
+  color: #20293a;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.main-desc {
+  color: #394150c0;
+  font-size: 16px;
+  line-height: 21px;
+  padding-bottom: 20px;
+}
+
+.main-etiqueta {
+  color: #394150;
+  font-size: 14px;
+  border-top: 2px solid #e5eaf0;
+  padding-top: 18px;
+}
